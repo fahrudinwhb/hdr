@@ -1,0 +1,113 @@
+body {
+	
+}
+
+.banner{
+	width: 100%;
+}
+
+.smenu{
+	margin-top: -5vh;
+}
+
+.content{
+	margin-top: 1vh;
+}
+
+.gambar{
+	height: 30vh;
+}
+
+.judul-card{
+	height: 15%;
+}
+
+.judul-font{
+	font-size: 80%;
+}
+
+@font-face {
+	font-family: logo_font;
+	src: url(../font/AgentOrange.ttf);
+	/*font-weight: bold;*/
+}
+
+.brand-logo{
+	margin-left: 1%;
+}
+
+.logo{
+	font-family: logo_font;
+	margin-top: 0px;
+}
+
+@media all and (max-width: 480px) {
+	.logo{
+		font-size: 6vw;
+		margin-top: 0px;
+	}
+}
+
+/* The animation code */
+@keyframes ratingcolor {
+	0%   {color: white;}
+	20%  {color: darkred;}
+	40%  {color: teal;}
+	60%  {color: black;}
+	80%  {color: orange;}
+	100% {color: white;}
+}
+
+/* The element to apply the animation to */
+.shadow {
+	/*margin-top: 0;
+	animation-name: ratingcolor;
+	animation-duration: 8s;
+	animation-iteration-count: 1; 
+	animation-timing-function: ease;*/
+
+	/*text-shadow: 0px 0px 3px black, 0px 0px 8px white;*/
+	/*box-shadow: 0px 0px 3px black;*/
+	padding: 5px;
+	border-radius: 2vw;
+	background-color: grey;
+	font-size: 3vh;
+}
+
+.shadow2 {
+	padding: 1vw;
+	border-radius: 1vh;
+	background-color: grey;
+	font-size: 3vw;
+}
+
+.border-bottom{
+	border-bottom: 5px solid orange;
+	background-color: #607D8B;
+	padding: 1vh;
+	/*margin-left: 0;*/
+}
+
+.border-top{
+	border-top: 3px solid #607D8B;
+}
+
+.padding-2vw{
+	padding-top: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.depth-1{
+	border-right: 1px solid #BDBDBD;
+	border-left: 1px solid #BDBDBD;
+}
+
+
+.gradien {
+	background: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, rgba(255,255,200,0.9), rgba(255,255,255,1),  rgba(255,255,255,1), rgba(255,255,200,0.9)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left, orange, white, white, orange); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, orange, white, white, orange); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(left, orange, white, white, orange); /* Standard syntax */
+}
